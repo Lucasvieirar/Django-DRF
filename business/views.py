@@ -9,5 +9,3 @@ class BusinessCreateListView(generics.ListCreateAPIView):
 class BusinessRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Business.objects.all()
     serializer_class = BusinessSerializer
-
-
